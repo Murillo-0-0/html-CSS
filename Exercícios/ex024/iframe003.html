@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere odio totam doloribus sapiente porro voluptatibus vero rem ad, dignissimos dolore reprehenderit atque non libero illum, distinctio hic temporibus! Impedit, atque.</p>
+
+    <ul>
+        <li><a href="paginas extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="#">Segunda página</a></li>
+        <li><a href="#">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit corrupti at distinctio dolorum nesciunt incidunt ab. Eligendi, sapiente? Iure hic beatae aperiam nemo ducimus incidunt dolores molestias necessitatibus qui eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed maiores culpa itaque qui quibusdam eum doloremque perferendis eligendi deleniti. Dignissimos ducimus aliquam, vero in mollitia fugiat harum soluta incidunt temporibus!</p>
+
+    <iframe src="" id="tela" name="frame" srcdoc="<h1> escolha uma das opções acima </h1>"> 
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit corrupti at distinctio dolorum nesciunt incidunt ab. Eligendi, sapiente? Iure hic beatae aperiam nemo ducimus incidunt dolores molestias necessitatibus qui eos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed maiores culpa itaque qui quibusdam eum doloremque perferendis eligendi deleniti. Dignissimos ducimus aliquam, vero in mollitia fugiat harum soluta incidunt temporibus!</p>
+</body>
+</html>
